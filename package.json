@@ -1,16 +1,27 @@
 {
   "name": "nodetutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "10-FsModule-SYNC.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "loadash": "^1.0.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bheemaguli/Node-and-Express-Course.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bheemaguli/Node-and-Express-Course/issues"
+  },
+  "homepage": "https://github.com/bheemaguli/Node-and-Express-Course#readme",
+  "description": ""
 }
